@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "giahuy123@@",
+    "database": "node-jwt",
+    "host": "localhost",
+    "dialect": "postgresql"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "giahuy123@@",
+    "database": "node-jwt",
+    "host": "localhost",
+    "dialect": "postgresql"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "giahuy123@@",
+    "database": "node-jwt",
+    "host": "localhost",
+    "dialect": "postgresql"
+  }
+}
