@@ -4,7 +4,7 @@ const config = require("../config/configJWT");
 
 module.exports = {
   async list(req, res) {
-    return user
+    return await user
       .findOne({ where: { email: email } })
       .then((user) => res.status(200).send(user))
       .catch((error) => res.status(404).send(error));
